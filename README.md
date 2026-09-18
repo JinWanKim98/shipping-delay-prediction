@@ -2,6 +2,10 @@
 
 An individual coursework project comparing Gaussian Naive Bayes and a small Keras neural network on 10,999 e-commerce orders, followed by a shared evaluation notebook. The target is `Reached.on.Time_Y.N`: **1 means late**, despite the column's name.
 
+## Tech stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white)
+
 ## Data and question
 
 The included `Train.csv` has ten predictors after excluding ID and target: warehouse, shipping mode, customer care calls, rating, product cost, previous purchases, product importance, gender, discount and weight. The practical question is which orders to flag for follow-up, rather than accuracy alone.
